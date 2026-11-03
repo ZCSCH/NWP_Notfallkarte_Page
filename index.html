@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Notfallkarte ZCS</title>
+<style>
+  :root { --red:#c8102e; --red-dark:#9e0c24; --ink:#1d1d1f; --muted:#5f5f66; --bg:#f5f5f7; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         background:var(--bg); color:var(--ink); }
+  header { background:var(--red); color:#fff; padding:28px 20px 24px; text-align:center; }
+  header h1 { margin:0; font-size:28px; font-weight:700; letter-spacing:.2px; }
+  header p { margin:6px 0 0; font-size:15px; opacity:.9; }
+  main { max-width:440px; margin:0 auto; padding:24px 16px 40px; }
+  .card { background:#fff; border-radius:16px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  .lead { margin:0 0 18px; font-size:16px; line-height:1.45; }
+  .btn { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; min-height:52px;
+         border-radius:12px; text-decoration:none; font-size:17px; font-weight:600; margin-top:12px; }
+  .btn-apple { background:#000; color:#fff; }
+  .btn-google { background:#fff; color:var(--ink); border:1.5px solid #dadce0; }
+  .btn svg { width:22px; height:22px; flex:none; }
+  .hint { color:var(--muted); font-size:14px; line-height:1.45; margin:16px 0 0; }
+  .status { color:var(--muted); font-size:14px; text-align:center; margin:0 0 6px; min-height:1em; }
+  .desktop { display:none; text-align:center; }
+  .desktop img { width:200px; height:200px; image-rendering:pixelated; margin:8px auto 0; display:block; }
+  footer { text-align:center; color:var(--muted); font-size:12px; margin-top:28px; line-height:1.5; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Notfallkarte</h1>
+  <p>Zweifel Chips &amp; Snacks AG</p>
+</header>
+<main>
+  <div class="card">
+    <p class="status" id="status"></p>
+    <p class="lead">Die Notfallkarte mit allen wichtigen Notrufnummern f&uuml;r dein Handy-Wallet.</p>
+
+    <a class="btn btn-apple" id="apple" href="Notfallkarte.pkpass">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.7zM14.1 5.6c.6-.8 1.1-1.9 1-3-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.7-1.3z"/></svg>
+      Zu Apple Wallet hinzuf&uuml;gen
+    </a>
+    <a class="btn btn-google" id="google" href="https://pay.google.com/gp/v/save/eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJSUzI1NiIsICJraWQiOiAiMjViYjg4MzNjNmU1ZThhYWJjYjMxZjkzYTI5N2JlZmNiNzRiYzJjMiJ9.eyJpc3MiOiAiemNzLW5vdGZhbGxrYXJ0ZUBub3RmYWxsa2FydGUuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImdvb2dsZSIsICJvcmlnaW5zIjogWyJodHRwczovL2ludHJhbmV0LmV4YW1wbGUuY2giXSwgInR5cCI6ICJzYXZldG93YWxsZXQiLCAicGF5bG9hZCI6IHsiZ2VuZXJpY09iamVjdHMiOiBbeyJpZCI6ICIzMzg4MDAwMDAwMDIzMTcxNjU1Lm5vdGZhbGxrYXJ0ZS1hbGxnZW1laW4ifV19fQ.ox9K3HCnL45zg2qVt5s1IpAGtVzvq8fUo9pqUq8YCc8STiW1NG0hixNWZfSSB6mnNeVvzFRa5qDmwKyAlKfEnIUl5884lciluKEp13YwV565GuKgalrwLb5m7jSapMi6-qc8Arkhwt39zly4qA7XCS8KYZNz7kL3NuogTFems_GT54z0yZ1s6BYCZi6anspBBOQcLV9mm-c-PAW516K9I2ZAQD_v6RNn5IFYcMO0OydkFnlnHALxbPf0rD12mEiQH5sIvry5mNfRLU5WR8HjIYOff5Y-zveVXn5Tm6MJKkLkLIH_5FWhW0MU3l1h9WX5XcT07SGOytfSucgcXPCkwg">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3z"/><path fill="#34A853" d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22z"/><path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3.1a10 10 0 0 0 0 9.2L6.4 14z"/><path fill="#EA4335" d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.4L6.4 10C7.2 7.7 9.4 5.9 12 5.9z"/></svg>
+      Zu Google Wallet hinzuf&uuml;gen
+    </a>
+
+    <p class="hint">iPhone: &laquo;Apple Wallet&raquo; w&auml;hlen und oben rechts auf &laquo;Hinzuf&uuml;gen&raquo; tippen.<br>
+    Android: &laquo;Google Wallet&raquo; w&auml;hlen und &laquo;Speichern&raquo; tippen.</p>
+
+    <div class="desktop" id="desktop">
+      <p class="hint">Du bist am Computer. Scanne diesen Code mit der Handykamera:</p>
+      <img src="qr.png" alt="QR-Code zu dieser Seite">
+    </div>
+  </div>
+  <footer>Im Notfall zuerst 144 anrufen.<br>Die Karte ersetzt keinen Versicherungsausweis.</footer>
+</main>
+<script>
+  (function () {
+    var ua = navigator.userAgent || "";
+    var isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    var isAndroid = /Android/i.test(ua);
+    var status = document.getElementById("status");
+    var apple = document.getElementById("apple");
+    var google = document.getElementById("google");
+    // Only redirect once per visit, so "Back" doesn't loop.
+    var already = /[?&]stay=1/.test(location.search);
+    if (isIOS) {
+      google.style.display = "none";
+      if (!already) { status.textContent = "Apple Wallet wird geöffnet …"; history.replaceState(null, "", "?stay=1"); location.href = apple.href; }
+    } else if (isAndroid) {
+      apple.style.display = "none";
+      if (!already) { status.textContent = "Google Wallet wird geöffnet …"; history.replaceState(null, "", "?stay=1"); location.href = google.href; }
+    } else {
+      document.getElementById("desktop").style.display = "block";
+    }
+  })();
+</script>
+</body>
+</html>
