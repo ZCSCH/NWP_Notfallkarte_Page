@@ -1,8 +1,8 @@
-# NWP Notfallkarte
+# NWP Notfallkarte – Page
 
 Öffentliche Download-Seite der **Notfallkarte Zweifel Chips & Snacks AG** für Apple Wallet und Google Wallet.
 
-**Adresse (Ziel des QR-Codes):** https://zcsch.github.io/NWP_Notfallkarte/
+**Adresse (Ziel des QR-Codes):** https://zcsch.github.io/NWP_Notfallkarte_Page/
 
 | Datei | Zweck |
 |---|---|
@@ -13,7 +13,7 @@
 
 ## Karte ändern
 
-Die Karte wird **nicht hier** bearbeitet. Quelle, Build-Skripte und Zertifikate liegen ausserhalb dieses Repositorys.
+Die Karte wird **nicht hier** bearbeitet. Quelle und Build-Skripte liegen im privaten Repository `ZCSCH/NWP_Notfallkarte`. Schlüssel und Zertifikate liegen auf keinem GitHub-Repository.
 Nach einer Änderung die neu gebaute `Notfallkarte.pkpass` hier ersetzen und pushen. Adresse und QR-Code bleiben gleich.
 
 ## Wichtig
