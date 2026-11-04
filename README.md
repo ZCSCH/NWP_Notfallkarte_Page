@@ -10,8 +10,3 @@ Adresse (Ziel des QR-Codes): <https://zcsch.github.io/NWP_Notfallkarte_Page/>
 | `Notfallkarte.pkpass` | signierte Apple-Wallet-Karte |
 | `qr.png` | QR-Code auf diese Seite |
 | `robots.txt` | keine Aufnahme in Suchmaschinen |
-
-## Karte ändern
-
-Quellen und Build-Skripte liegen im privaten Repo `ZCSCH/NWP_Notfallkarte`.
-Nach einer Änderung die neu gebaute `Notfallkarte.pkpass` hier ersetzen. Adresse und QR-Code bleiben gleich.
